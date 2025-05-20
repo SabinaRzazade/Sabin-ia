@@ -31,7 +31,7 @@ nav form .btn-login {
   font-size: 1rem;
   border: 1px solid var(--olive);
   min-width: 90px;
-  white-space: nowrap; 
+  white-space: nowrap;
 }
 
 nav form .btn-signup {
@@ -192,3 +192,281 @@ form .checkout-button:hover {
   background-color: var(--olive1);
   color: white;
 }
+
+
+.collection-block {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  border-radius: 10px;
+}
+
+.collection-block:hover {
+  transform: scale(1.015);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.collection-block img {
+  border-radius: 10px;
+  filter: grayscale(80%);
+  transition: filter 0.5s ease;
+}
+
+.collection-block:hover img {
+  filter: grayscale(20%);
+}
+
+.collection-block h4 {
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+}
+
+.collection-block a.btn {
+  border-radius: 25px;
+  font-size: 0.9rem;
+  padding: 0.5rem 1.3rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.collection-block a.btn:hover {
+  background-color: var(--olive1);
+  color: white;
+  border-color: var(--olive1);
+}
+.collection-header{
+    margin-top: 3%;
+}
+
+
+h1,
+h2,
+h5 {
+  font-family: "Didot", serif;
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.container .btn:hover {
+  background-color: var(--olive1);
+  color: white;
+}
+
+.footer-links a {
+  font-size: 0.95rem;
+}
+
+img {
+  transition: filter 0.7s ease;
+}
+
+.card-body a{
+  border: 1px solid var(--olive1);
+}
+.detail1 .btn{
+    border: 1px solid rgba(54, 54, 11, 0.301);}
+
+.detail1 .btn:hover{
+    border-color: var(--olive1);
+    background-color: var(--olive1);
+    color: white;
+}
+
+.product-image {
+  max-width: 100%;
+  border-radius: 0.75rem;
+  object-fit: cover;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.detail{
+    justify-content: center;
+}
+
+.detail img{
+    max-width: 400px;
+}
+
+.detail1{
+    font-size: larger;
+}
+body {
+  background-color: #f8f9fa;
+}
+
+.login-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("/images/australian-open-celebrities-2025-678760c75a473.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+section .login-card {
+  background-color: white;
+  border: 0.5px solid var(--olive);
+  padding: 5rem 2.5rem;
+  border-radius: 15px;
+  max-width: 500px;
+  height: auto;
+  width: 100%;
+  box-shadow: 1px 4px 60px rgba(0, 0, 0, 0.05);
+}
+
+.login-card h2 {
+  font-family: "Modern No. 20", serif;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  color: var(--olive1);
+}
+
+
+.register-link {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.register-link a {
+  color: var(--olive1);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+.register-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.3rem 2rem;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("/images/australian-open-celebrities-2025-678760c75a473.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.register-card {
+  background-color: white;
+  border: 1px solid var(--olive1);
+  padding: 2.5rem 3rem;
+  border-radius: 15px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.register-card h2 {
+  font-family: "Modern No. 20", serif;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  color: var(--olive1);
+}
+
+.form-label {
+  font-weight: 500;
+  color: #333;
+}
+
+.form-control {
+  border-radius: 10px;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--olive);
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: var(--olive1);
+}
+
+form .btn-login {
+  background-color: var(--olive1);
+  color: white;
+  border: 1px solid var(--olive1);
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 10px;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+form .btn-login:hover {
+  background-color: var(--olive);
+  border-color: var(--olive);
+  color: #f8f9fa;
+}
+
+.btn-signup {
+  background-color: white;
+  color: var(--olive1);
+  border: 1px solid var(--olive1);
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-signup:hover {
+  background-color: var(--olive);
+  color: white;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.login-link a {
+  color: var(--olive1);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+table td,
+table th {
+        vertical-align: middle;
+      }
+
+
+      .table-responsive {
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+      }
+
+      .cart-item h6 {
+        text-align: left;
+        margin-left: 3%;
+        margin-bottom: 1rem;
+      }
+
+      .cart-summary {
+        border-top: 1px solid #dee2e6;
+        padding-top: 1rem;
+      }

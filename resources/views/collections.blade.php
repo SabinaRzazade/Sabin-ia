@@ -1,101 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SABIN | Collections</title>
-    <link rel="stylesheet" href="collections.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Didot&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a
-          class="navbar-brand"
-          href="homepage.html"
-          style="font-size: 1.9rem; font-family: 'Engravers MT', serif"
-          >Sabin</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="homepage.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="collections.html">Collections</a>
-              <!--Spring Collection, Fall fashion-->
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Categories
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">New arrivals</a></li>
-                <li><a class="dropdown-item" href="products.html">All</a></li>
-                <li><a class="dropdown-item" href="#">Dresses</a></li>
-                <li><a class="dropdown-item" href="#">Blouses</a></li>
-                <li><a class="dropdown-item" href="#">T-shirts</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Shirts/Polo Shirts</a>
-                </li>
-                <li><a class="dropdown-item" href="#">Skirts</a></li>
-                <li><a class="dropdown-item" href="#">Trousers</a></li>
-                <li><a class="dropdown-item" href="#">Sweatshirts</a></li>
-                <li><a class="dropdown-item" href="#">Blazers</a></li>
-                <li><a class="dropdown-item" href="#">Outerwear</a></li>
-                <li><a class="dropdown-item" href="#">Accessories</a></li>
-                <li><a class="dropdown-item" href="#">Shoes</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex gap-2" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <a href="register.html" class="btn btn-signup">Sign Up</a>
-            <a href="login.html" class="btn btn-login">Login</a>
-          </form>
-        </div>
-      </div>
-    </nav>
-    <section class="hero-banner">
+@extends('layouts.app')
+
+@section('title', 'SABIN | Collections')
+
+
+@section('content')
+<section class="hero-banner">
          <div class="hero-img-container">
     <img src="/images/SpJdhLuft6iuotFyap5YY3.jpg" alt="Hero Fashion" class="hero-img" />
   </div>
@@ -251,26 +160,4 @@
         </div>
       </div>
     </section>
-
-    <div class="b-example-divider"></div>
-    <div class="container">
-      <footer class="py-5 my-5 border-top">
-        <nav
-          class="nav justify-content-center pb-2 mb-3"
-          aria-label="Footer navigation"
-        >
-          <a href="#" class="nav-link px-3 text-muted">Home</a>
-          <a href="#" class="nav-link px-3 text-muted">Features</a>
-          <a href="#" class="nav-link px-3 text-muted">Pricing</a>
-          <a href="#" class="nav-link px-3 text-muted">FAQs</a>
-          <a href="#" class="nav-link px-3 text-muted">About</a>
-        </nav>
-        <p class="text-center text-muted mb-0">
-          &copy; 2025 Company, Inc. All rights reserved.
-        </p>
-      </footer>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
-</html>
+    @endsection
