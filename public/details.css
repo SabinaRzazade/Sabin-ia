@@ -1,0 +1,123 @@
+:root {
+  --olive: #898f79;
+  --olive1: #787a6e;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cards1 a:hover {
+  background-color: var(--olive);
+  color: white;
+}
+
+.navbar ul:first-child .nav-link:hover {
+  transition: transform 0.7s ease;
+  transform: scale(1.05);
+}
+
+.dropdown-menu a:hover {
+  display: block;
+  background-color: rgb(212, 212, 212);
+}
+
+nav form .btn-signup,
+nav form .btn-login {
+  padding: 0.5rem 1.2rem;
+  border-radius: 15px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  font-size: 1rem;
+  border: 1px solid var(--olive);
+  min-width: 90px;
+  white-space: nowrap;
+}
+
+nav form .btn-signup {
+  background-color: white;
+  color: var(--olive1);
+  border: 1px solid var(--olive1);
+}
+nav form .btn-signup a {
+  text-decoration: none;
+  color: var(--olive1);
+}
+nav form .btn-login {
+  background-color: var(--olive1);
+  color: white;
+  border: 1px solid var(--olive1);
+}
+nav form .btn-login a {
+  text-decoration: none;
+  color: white;
+}
+
+nav form .btn-signup:hover {
+  background-color: rgb(196, 196, 185);
+  color: white;
+}
+
+nav form .btn-login:hover {
+  border-color: var(--olive);
+  background-color: var(--olive);
+  color: white;
+}
+
+.cards1 a {
+  color: var(--olive1);
+  border: 1px solid var(--olive);
+}
+
+h1,
+h2,
+h5 {
+  font-family: "Didot", serif;
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.container .btn:hover {
+  background-color: var(--olive1);
+  color: white;
+}
+
+.footer-links a {
+  font-size: 0.95rem;
+}
+
+img {
+  transition: filter 0.7s ease;
+}
+
+.card-body a{
+  border: 1px solid var(--olive1);
+}
+.detail1 .btn{
+    border: 1px solid rgba(54, 54, 11, 0.301);}
+
+.detail1 .btn:hover{
+    border-color: var(--olive1);
+    background-color: var(--olive1);
+    color: white;
+}
+
+.product-image {
+  max-width: 100%;
+  border-radius: 0.75rem;
+  object-fit: cover;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.detail{
+    justify-content: center;
+}
+
+.detail img{
+    max-width: 400px;
+}
+
+.detail1{
+    font-size: larger;
+}

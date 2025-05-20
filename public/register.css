@@ -1,0 +1,87 @@
+body {
+  background-color: #f9f9f9;
+}
+
+.register-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.3rem 2rem;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("/images/australian-open-celebrities-2025-678760c75a473.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.register-card {
+  background-color: white;
+  border: 1px solid var(--olive1);
+  padding: 2.5rem 3rem;
+  border-radius: 15px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.register-card h2 {
+  font-family: "Modern No. 20", serif;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  color: var(--olive1);
+}
+
+.form-label {
+  font-weight: 500;
+  color: #333;
+}
+
+.form-control {
+  border-radius: 10px;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--olive);
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: var(--olive1);
+}
+
+.btn-signup {
+  background-color: white;
+  color: var(--olive1);
+  border: 1px solid var(--olive1);
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-signup:hover {
+  background-color: var(--olive);
+  color: white;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.login-link a {
+  color: var(--olive1);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
