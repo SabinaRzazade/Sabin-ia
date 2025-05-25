@@ -31,7 +31,7 @@
               <option>XL</option>
             </select>
           </div>
-          <button class="btn btn-border-color:">Add to Cart</button>
+          <button class="btn btn-border-color:" href="cart.blade.php">Add to Cart</button>
           <div class="text-muted small mt-3">
             <p>
               <strong>Shipping:</strong> Free worldwide shipping on all orders
