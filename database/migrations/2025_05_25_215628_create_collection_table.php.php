@@ -13,12 +13,7 @@ return new class extends Migration
     {
         Schema::create('collections', function (Blueprint $table) {
         $table->id();
-        $table->string('spring_bloom');
-        $table->string('autumn_elegance');
-        $table->string('evening_icons');
-        $table->string('minimal_chic');
-        $table->string('statement_outerwear');
-        $table->string('timeless_accessories');
+        $table->string('name');
 
         $table->timestamps();
     });
@@ -32,3 +27,21 @@ return new class extends Migration
         //
     }
 };
+
+
+
+
+
+
+
+
+
+/*DB::table('collections')->insert([
+    ['name' => 'Spring Bloom'],
+    ['name' => 'Autumn Elegance'],
+    ['name' => 'Evening Icons'],
+    ['name' => 'Minimal Chic'],
+    ['name' => 'Statement Outerwear'],
+    ['name' => 'Timeless Accessories'],
+]);
+*/

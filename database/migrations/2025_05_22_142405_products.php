@@ -15,8 +15,9 @@ return new class extends Migration
         $table->id();
         $table->string('name');
         $table->string('size');
-        $table->string('collections');
-        $table->string('categories');
+        $table->string('image')->nullable();
+        $table->foreignId('collection_id')->constrained('collections')->onDelete('cascade');
+        $table->foreignId('category_id')->constrained('categories')->onDelete('cascade');
         $table->decimal('price', 8, 2);
         $table->integer('stock');
         $table->text('description');
